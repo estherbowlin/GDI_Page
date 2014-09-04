@@ -1,0 +1,104 @@
+/* style reset */
+/* html, body, div, span, h1, h2, h3, h4, h5, h6,
+p, a, em, strong, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ol, ul {
+  list-style: none;
+} */
+
+/* end reset */
+
+
+ul, p {
+	color: lightblue;
+	font-family: arial;
+}
+
+.zebra {
+	background-color: white;
+	color: lightsalmon;
+}
+
+h1, h2 {
+	color: plum;
+	font-style: italic;
+	font-family: arial;
+	text-align: center;
+}
+
+#content {
+	width: 700px;
+	float: right;
+	border: solid 10px black;
+}
+
+img {
+	height: 200px;
+	width: auto;
+	border: 2px solid black;
+	padding: 3px;
+	margin: 5px;
+}
+
+#header {
+	font-style: bold;
+	font-size: 20px;
+	background-color: aliceblue;
+	border: 5px solid lightblue;
+}
+
+#footer {
+	font-style: italic;
+	border: 3px solid plum;
+	clear: both;
+}
+
+#sidebar {
+	font-size: 20px;
+	border: solid 3px plum;
+	width: 200px;
+	height: 400px;
+	float: left;
+}
+
+.highlight {
+	background-color: coral;
+	color: cornsilk;
+}
+
+#wrapper {
+	margin-left: 20px;
+	width: auto;
+	height: auto;
+}
+
+.imageContainer {
+	position: relative;
+}
+
+.caption {
+	position: absolute;
+	background-color: white;
+	bottom: 25px;
+	left: 25px;
+}
+
+a:link {
+	color: purple;
+	text-decoration: none;
+}
+
+a:visited {
+	color: darkorchid;
+}
+a:hover {
+	color: coral;
+	
+}
+a:active {
+	color: blue;
+}
+
